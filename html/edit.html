@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>监控</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.layuicdn.com/layer/layer.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">导航按钮</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./">监控</a>
+        </div>
+        <!-- /.navbar-header -->
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                    <a href="./"><span class="glyphicon glyphicon-user"></span> 平台首页</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- /.navbar -->
+<div class="container" style="padding-top:70px;">
+    <div class="col-sm-12 col-md-10 col-lg-8 center-block" style="float: none;">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><h3 class="panel-title">编辑网址</h3></div>
+            <div class="panel-body">
+                <div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon">设置网址</div>
+                            <input id="url" class="form-control" value="{{.url}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon">设置周期(s)</div>
+                            <input id="time" class="form-control" value="{{.time}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon">状态</div>
+                            <select id="status" class="form-control" value="{{.openStatus}}">
+                                <option value="true">开启</option>
+                                <option value="false">关闭</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p><input type="submit" value="修改" class="btn btn-primary form-control" onclick="addUrl()"/></p>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="glyphicon glyphicon-info-sign"></span> 我是可爱的提示 ←我比它更可爱QAQ TAT
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
+<script>
+    $(document).ready(function () {
+        if ($("#url").val() != "") {
+            $("#url").attr("disabled", true);
+        }
+        let items = $("select[value]");
+        console.log(items);
+        for (let i = 0; i < items.length; i++) {
+            console.log($(items[i]));
+            console.log($(items[i]).attr("value"));
+            $(items[i]).val($(items[i]).attr("value") || 0);
+        }
+    });
+
+    function addUrl() {
+        let url = $("#url").val(),
+            time = $("#time").val();
+        if (url == "") {
+            layer.msg("url不能为空", {icon: 2})
+            return
+        } else if (time == "") {
+            layer.msg("设置周期不能为空", {icon: 2})
+            return
+        }
+        layer.load();
+        $.post("./api/add/url", {
+            "url": url,
+            "status": $("#status").val(),
+            "time": time,
+        }, function (res, textStatus, jqXHR) {
+            layer.closeAll("loading");
+            if (textStatus == "success") {
+                let icon = 3;
+                if (res.code == false) {
+                    icon = 2;
+                } else {
+                    icon = 1;
+                }
+                layer.msg(res.msg, {icon: icon})
+            }
+        }, "json")
+
+
+    }
+
+</script>

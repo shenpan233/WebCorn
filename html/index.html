@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>监控</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">导航按钮</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./">监控</a>
+        </div>
+        <!-- /.navbar-header -->
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                    <a href="./"><span class="glyphicon glyphicon-user"></span> 平台首页</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- /.navbar -->
+<div class="container" style="padding-top:70px;">
+    <div class="col-md-12 center-block" style="float: none;">
+        <a href="add" class="btn btn-primary">添加一个监控</a>&nbsp;
+        <div class="table-responsive">
+            <form name="form1" method="post" action="">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th width="80">
+                            ID(无用)
+                        </th>
+                        <th>
+                            URL
+                        </th>
+                        <th>
+                            周期(s)
+                        </th>
+                        <th>
+                            开启状态
+                        </th>
+                        <th>
+                            状态
+                        </th>
+                        <th>
+                            操作
+                        </th>
+                    </tr>
+                    </thead>
+
+
+                    {{.loadData}}
+
+
+                    <tbody>
+                    </tbody>
+                </table>
+                <input name="chkAll1" type="checkbox" id="chkAll1" onclick="this.value=check1(this.form.list1)"
+                       value="checkbox">&nbsp;全选&nbsp;
+                <select name="act">
+                    <option selected>操作</option>
+                    <option value="del">删除</option>
+                </select>
+                <input type="submit" name="Submit" value="确定">
+            </form>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $("#del").click(function () {
+                    layer.load();
+                    let id = $(this).data("id");
+                    $.post("./api/delete", {"id": id}, function (res) {
+                        layer.closeAll("loading");
+                        let icon = 2;
+                        if (res.code) {
+                            icon = 1;
+                        }
+                        layer.msg(res.msg, {icon: icon})
+                    }, "json")
+
+                })
+            })
+
+        </script>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>

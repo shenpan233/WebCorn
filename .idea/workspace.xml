@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00cb3162-b7ed-4f71-8952-f834ffec3dce" name="Default Changelist" comment="简单的网页定时GET访问">
+      <change afterPath="$PROJECT_DIR$/.idea/WebCorn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corn/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="shenpan233" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1nrLB2MvLGOFsZFsBAMfk3rNzOz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\go\WebCorn\html" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build WebCorn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="WebCorn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="WebCorn" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$USER_HOME$/Desktop/qqrobot/WebCorn" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build WebCorn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简单的网页定时GET访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单的网页定时GET访问" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="441" y="71" width="484" height="603" key="#Build_Tags_&amp;_Vendoring" timestamp="1612155443607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="71" width="484" height="603" key="#Build_Tags_&amp;_Vendoring/0.0.1366.728@0.0.1366.728" timestamp="1612155443607" />
+    <state x="52" y="205" key="#SQL_Dialects" timestamp="1612145135055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="52" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1612145135055" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612182108866">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1612182108866" />
+    <state x="429" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612145208074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="429" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1612145208074" />
+    <state x="437" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612155826861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1612155826861" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1612233527666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612233527666" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612233189625">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612233189625" />
+    <state x="646" y="325" key="Github.CreateGistDialog" timestamp="1612144059613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="646" y="325" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1612144059613" />
+    <state x="554" y="261" key="Github.ShareDialog" timestamp="1612233101219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="554" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1612233101219" />
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1612186651398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612186651398" />
+    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1612186651397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612186651397" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1612186651397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612186651397" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1612186651398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612186651398" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1612155763134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612155763134" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612233532393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612233532393" />
+    <state x="310" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612165484617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1612165484617" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612181047586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612181047586" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html/edit.html</url>
+          <line>118</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
