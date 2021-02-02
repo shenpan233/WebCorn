@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00cb3162-b7ed-4f71-8952-f834ffec3dce" name="Default Changelist" comment="简单的网页定时GET访问">
-      <change afterPath="$PROJECT_DIR$/.idea/WebCorn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corn/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="00cb3162-b7ed-4f71-8952-f834ffec3dce" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,10 +101,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1612155826861" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1612233527666">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1612233541169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612233527666" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612233541169" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612233189625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -152,14 +137,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612155763134" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612233532393">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612233774603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612233532393" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612233774603" />
     <state x="310" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612165484617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="310" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1612165484617" />
+    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612234118315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1612234118315" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612181047586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
